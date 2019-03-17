@@ -1,0 +1,54 @@
+
+.myList{
+    width: 100%;
+    border: 1px solid #444;
+}
+.myList li{
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 1px solid #fefefe;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 0 20px;
+}
+.myList .left{
+    text-align: left;
+    /* background: green; */
+    width: 830px
+}
+.myList .left img{
+    height: 30px;
+    border-radius: 3px;
+    margin-right: 10px
+}
+.myList .left .budgut{
+    padding:3px 10px;
+    background:#ccc;
+    margin-right: 10px
+}
+.myList .left .budgut-hover{
+    padding:3px 10px;
+    background: green;
+    margin-right: 10px
+}
+.myList .left .read{
+    margin-right: 10px
+}
+.myList .left .read b{
+    font-size: 16px;
+}
+.myList .right{
+    text-align: right;
+    width: 200px;
+}
+
+.detailsContent{
+    position: relative;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    z-index: 99;
+    background: green;
+}

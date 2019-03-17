@@ -1,0 +1,12 @@
+.ant-menu-item{
+    line-height: 60px!important;
+    height: 60px!important;
+    border-bottom: 1px solid #ccc;
+    color: #666;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background: orange;
+}
+.ant-menu{
+    /* background: #fff!important; */
+}

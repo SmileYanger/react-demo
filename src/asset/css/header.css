@@ -1,0 +1,46 @@
+.box{
+    width: 1200px;
+    margin: 0 auto 10px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.logo{
+    height: 30px;
+    
+}
+.search{
+    width: 250px;
+    height: 25px;
+    margin-right: 230px
+}
+.search >input{
+    
+    border-radius: 15px;
+    background: #666;
+    margin-left: 30px;
+    outline:none;
+}
+.ant-layout-header{
+    /* background: orange!important; */
+    padding: 0!important;
+}
+.nav{
+    flex: 1;
+}
+.ant-menu-horizontal{
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 60px;
+    border-bottom: 0!important;
+}
+.ant-menu{
+    background-color: #444!important;
+    color: aliceblue
+}
+.ant-menu-item {
+    /* font-size: 16px!important; */
+    letter-spacing: 1px;
+}
